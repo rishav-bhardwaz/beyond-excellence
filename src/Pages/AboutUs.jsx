@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar";
-import FrameComponent from "../components/FrameComponent";
-import FrequentlyAskedQuestions from "../components/FrequentlyAskedQuestions";
+import FrameComponent from "../Components/FrameComponent";
+import FrequentlyAskedQuestions from "../Components/FrequentlyAskedQuestions";
 import styles from "./AboutUs.module.css";
 import Footer from "../Sections/Footer";
 const AboutUs = () => {
