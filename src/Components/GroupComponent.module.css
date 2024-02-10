@@ -1,0 +1,194 @@
+.frameChild {
+  width: 1280px;
+  height: 744px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.frequentlyAskedQuestions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 56px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.loremIpsumDolar {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 31px;
+  font-family: var(--font-montserrat);
+  color: var(--color-dimgray-300);
+  z-index: 1;
+}
+.frequenciesGroup {
+  width: 751px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameItem {
+  height: 110px;
+  width: 548px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.loremIpsumDolar1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.arrowrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.frameInner,
+.rectangleGroup {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) var(--padding-11xl) var(--padding-23xl)
+    var(--padding-4xs);
+  gap: var(--gap-base);
+  min-width: 356px;
+  z-index: 1;
+}
+.frameInner {
+  height: 110px;
+  width: 548px;
+  position: relative;
+  display: none;
+}
+.loremIpsumDolar2 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 600;
+  font-family: var(--font-mulish);
+  color: var(--color-darkslategray);
+  text-align: center;
+  z-index: 1;
+}
+.arrowrightIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-200);
+  padding: var(--padding-21xl) var(--padding-11xl) var(--padding-21xl)
+    var(--padding-4xs);
+  background-color: var(--color-white);
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 356px;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleContainer:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+}
+.arrowsFAQ,
+.groupList,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.groupList {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.arrowsFAQ,
+.rectangleParent {
+  flex-direction: column;
+  font-size: var(--font-size-5xl);
+}
+.rectangleParent {
+  background-color: var(--color-whitesmoke);
+  align-items: center;
+  padding: var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-80xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-mulish);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frequentlyAskedQuestions {
+    font-size: var(--font-size-13xl);
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleContainer,
+  .rectangleGroup {
+    min-width: 100%;
+  }
+  .rectangleParent {
+    gap: var(--gap-30xl);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequentlyAskedQuestions {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+  .loremIpsumDolar1,
+  .loremIpsumDolar2 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .rectangleParent {
+    gap: var(--gap-6xl);
+  }
+}

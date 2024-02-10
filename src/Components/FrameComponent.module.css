@@ -1,0 +1,208 @@
+.welcomeToBeyond,
+.whoWeAre {
+  position: relative;
+  display: inline-block;
+}
+.whoWeAre {
+  margin: 0;
+  height: 188px;
+  width: 552px;
+  font-size: inherit;
+  line-height: 94px;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+  min-width: 552px;
+  max-width: 100%;
+}
+.welcomeToBeyond {
+  align-self: stretch;
+  height: 140px;
+  font-weight: 500;
+}
+.frameChild {
+  height: 61px;
+  width: 178px;
+  position: relative;
+  background-color: var(--color-crimson-200);
+  display: none;
+}
+.searchCourses {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-mulish);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+  background-color: crimson;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-lg)
+    var(--padding-4xl);
+  background-color: var(--color-crimson-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: crimson;
+}
+.rectangleParent:hover {
+  background-color: var(--color-crimson-100);
+}
+.welcomeToBeyondExcellenceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+  gap: var(--gap-18xl);
+}
+.frameWrapper,
+.whoWeAreAndWhatWeDoParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 486px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  min-width: 486px;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.whoWeAreAndWhatWeDoParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  align-self: stretch;
+  width: 835px;
+  position: relative;
+  background-color: var(--color-silver-200);
+  display: none;
+  max-width: 100%;
+}
+.dStudentGraduationCapOnBo {
+  height: 393px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  flex: 1;
+  background-color: var(--color-silver-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 543px;
+  max-width: 100%;
+}
+.frameInner {
+  align-self: stretch;
+  width: 381px;
+  position: relative;
+  background-color: var(--color-gainsboro-300);
+  display: none;
+  max-width: 100%;
+}
+.unsplasheesdjflfx1aIcon {
+  height: 393px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleContainer {
+  width: 381px;
+  background-color: var(--color-gainsboro-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 381px;
+  max-width: 100%;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.frameParent {
+  width: 1240px;
+  flex-direction: column;
+  gap: var(--gap-14xl);
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-black);
+  font-family: var(--font-plus-jakarta-sans);
+}
+@media screen and (max-width: 1200px) {
+  .frameWrapper,
+  .whoWeAre {
+    flex: 1;
+  }
+  .whoWeAreAndWhatWeDoParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whoWeAre {
+    font-size: var(--font-size-37xl);
+    line-height: 75px;
+  }
+  .rectangleContainer,
+  .unsplasheesdjflfx1aIcon {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whoWeAre {
+    min-width: 100%;
+  }
+  .welcomeToBeyondExcellenceParent {
+    gap: var(--gap-lg);
+  }
+  .frameWrapper,
+  .rectangleGroup {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whoWeAre {
+    font-size: var(--font-size-23xl);
+    line-height: 56px;
+  }
+  .rectangleContainer {
+    min-width: 100%;
+  }
+}

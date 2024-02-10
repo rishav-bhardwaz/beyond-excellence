@@ -1,0 +1,53 @@
+{
+  "name": "a",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/cache": "11.10.8",
+    "@emotion/react": "11.10.8",
+    "@emotion/styled": "11.10.8",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "5.12.3",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.5",
+    "chart.js": "4.3.0",
+    "chroma-js": "2.4.2",
+    "prop-types": "15.8.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "1.4.0",
+    "react-icon": "^1.0.0",
+    "react-icons": "^5.0.1",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.21.2",
+    "react-scripts": "5.0.1",
+    "react-table": "7.8.0",
+    "react-toastify": "^10.0.3",
+    "recharts": "^2.11.0",
+    "stylis": "4.1.4",
+    "stylis-plugin-rtl": "2.1.1",
+    "swiper": "^11.0.5",
+    "yup": "1.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}

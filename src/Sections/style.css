@@ -1,0 +1,340 @@
+
+.catalogue-section,
+.url-shortener-section,
+.sms-section,
+.control-section {
+  background: url(../images/grey-bg-left-red.png) left bottom no-repeat;
+  background-size: cover;
+}
+
+.landing-section,
+.targeting-section,
+.reporting-section {
+  background: url(../images/r-half-arrow-bg-min.png) right top no-repeat;
+  background-size: auto 80%;
+}
+.listings-section .dot-img {
+  top: 10px;
+  left: 0;
+}
+.catalogue-section .dot-img {
+  top: 10px;
+  left: -10px;
+}
+@media (max-width: 991px) {
+  .banner-box .bannr-txt {
+    width: 100%;
+  }
+  .banner-box .bannr-txt h1,
+  .banner-box .bannr-txt h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .banner-box .bannr-txt p {
+    font-size: 1.15rem;
+    line-height: 1.4em;
+  }
+  .banner-box .bannr-txt .btns {
+    margin-top: 1.5rem;
+  }
+  .automation-section h2 {
+    font-size: 2.5rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .page-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .feedback-section {
+    margin: 0;
+  }
+  .feedback-section h3 {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+  }
+  .feedback-section p {
+    max-width: 100%;
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 767px) {
+  .page-section {
+    padding: 4rem 0;
+  }
+  .page-section h2 {
+    font-size: 1.5rem;
+  }
+  .page-section p.p1 {
+    font-size: 1rem;
+  }
+  .page-section .section-img {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+  }
+  .page-section .section-img img {
+    max-width: 300px;
+  }
+  .page-section .section-img img.dot-img.show {
+    transform: scale(0.7) translateX(0);
+  }
+  .banner-box {
+    padding: 2rem 0 3rem;
+  }
+  .banner-box .bannr-txt {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .banner-box .bannr-txt h1,
+  .banner-box .bannr-txt h2 {
+    font-size: 1.5rem;
+  }
+  .banner-box .image {
+    text-align: center;
+  }
+  .banner-box .image img.img-fluid {
+    max-width: 300px;
+  }
+  .automation-section .logo-list {
+    margin-top: 2rem;
+  }
+  .videos-section .row > div:nth-child(2n) .video {
+    transform: none;
+  }
+  .videos-section .video {
+    margin-bottom: 2rem;
+  }
+  .catalogue-section .dot-img {
+    top: -20px;
+    left: -30px;
+  }
+  .landing-section .dot-img {
+    top: -70px;
+    left: -60px;
+  }
+  .announcements-section .dot-img {
+    top: 30px;
+    left: 40px;
+  }
+  .custom-form-section .dot-img {
+    top: -50px;
+    right: -45px;
+  }
+  .url-shortener-section .dot-img {
+    top: -30px;
+    right: -65px;
+  }
+  .targeting-section .dot-img {
+    top: -50px;
+    left: 0px;
+  }
+  .evaluate-section .dot-img {
+    top: -75px;
+    left: 0px;
+  }
+  .evaluate-section .dot-img {
+    top: -75px;
+    left: 0px;
+  }
+  .marketing-section .dot-img {
+    top: -70px;
+    right: -70px;
+  }
+  .sms-section .dot-img {
+    top: -40px;
+    right: -60px;
+  }
+  .reporting-section .dot-img {
+    top: -40px;
+    right: -50px;
+  }
+  .control-section .dot-img {
+    top: -15px;
+    left: 25px;
+  }
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+
+.market-vertical-section1 {
+  background-color: #000;
+}
+
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+
+
+.main {
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(245, 245, 245);
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: "Exo 2", sans-serif;
+  color: var(--color);
+  background: var(--bgColor);
+}
+
+h1 {
+  text-align: center;
+}
+
+ol {
+  width: min(60rem, 90%);
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  list-style: none;
+  counter-reset: stepnr;
+}
+
+li:nth-child(6n + 1) {
+  --accent-color: #b8df4e;
+}
+li:nth-child(6n + 2) {
+  --accent-color: #4cbccb;
+}
+li:nth-child(6n + 3) {
+  --accent-color: #7197d3;
+}
+li:nth-child(6n + 4) {
+  --accent-color: #ae78cb;
+}
+li:nth-child(6n + 5) {
+  --accent-color: #7dc7a4;
+}
+li:nth-child(6n + 6) {
+  --accent-color: #f078c2;
+}
+
+ol li {
+  counter-increment: stepnr;
+  width: 18rem;
+  --borderS: 2rem;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(var(--borderS) + 2rem);
+  position: relative;
+}
+ol li::before,
+ol li::after {
+  inset: 0;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--borderS) solid var(--bgColor);
+  line-height: 1.1;
+}
+ol li::before {
+  content: counter(stepnr);
+  color: var(--accent-color);
+  padding-left: 10rem;
+  font-size: 12rem;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+ol li::after {
+  content: "";
+  filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(0, 0, 0, 0.75)) blur(5px);
+}
+
+ol li > * {
+  width: 7.5rem;
+}
+ol li .icon {
+  font-size: 2rem;
+  color: var(--accent-color);
+  text-align: center;
+}
+ol li .title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+ol li .descr {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.credits {
+  margin-top: 2rem;
+  text-align: right;
+}
+.credits a {
+  color: var(--color);
+}

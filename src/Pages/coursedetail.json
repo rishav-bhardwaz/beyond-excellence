@@ -1,0 +1,40 @@
+
+[
+    {
+    "index":1,
+      "language": "Malayalam",
+      "title": "Mastering Malayalam",
+      "image":"../../public/images/crs1.jpg",
+      "description": "Learn to speak, read, and write Malayalam fluently with our comprehensive course.",
+      "duration": "10 weeks",
+      "price": "999"
+    },
+    {
+        "index":2,
+      "language": "Urdu",
+      "title": "Urdu Essentials",
+      "image":"../../public/images/crs2.jpg",
+      "description": "Begin your journey into the world of Urdu with our beginner-friendly course.",
+      "duration": "3 Months",
+      "price": "799"
+    },
+    {
+        "index":3,
+      "language": "Punjabi",
+      "title": "Punjabi Proficiency",
+      "image":"../../public/images/crs3.jpg",
+      "description": "Take your Punjabi language skills to the next level with our advanced course.",
+      "duration": "5 Months",
+      "price": "999"
+    },
+    {
+        "index":4,
+      "language": "Gujarati",
+      "title": "Gujarati Mastery",
+      "image":"../../public/images/crs4.jpg",
+      "description": "Become fluent in Gujarati and explore the rich culture of Gujarat.",
+      "duration": "6 Months",
+      "price": "999"
+    }
+  ]
+  

@@ -1,0 +1,114 @@
+.frameChild {
+  height: 110px;
+  width: 548px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.loremIpsumDolar {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 600;
+  font-family: var(--font-mulish);
+  color: var(--color-darkslategray);
+  text-align: center;
+  z-index: 1;
+}
+.arrowrightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-200);
+  padding: var(--padding-21xl) var(--padding-11xl) var(--padding-21xl)
+    var(--padding-4xs);
+  background-color: var(--color-white);
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 356px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameItem,
+.rectangleGroup:hover,
+.rectangleParent:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 110px;
+  width: 548px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  display: none;
+  max-width: 100%;
+}
+.loremIpsumDolar1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 600;
+  font-family: var(--font-mulish);
+  color: var(--color-darkslategray);
+  text-align: center;
+  z-index: 1;
+}
+.arrowrightIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  z-index: 1;
+}
+.groupList,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 1px solid var(--color-gainsboro-200);
+  padding: var(--padding-21xl) var(--padding-11xl) var(--padding-21xl)
+    var(--padding-4xs);
+  background-color: var(--color-white);
+  flex: 1;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-base);
+  min-width: 356px;
+  z-index: 1;
+}
+.groupList {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+@media screen and (max-width: 750px) {
+  .rectangleGroup,
+  .rectangleParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loremIpsumDolar,
+  .loremIpsumDolar1 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+}
